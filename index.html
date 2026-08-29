@@ -4,7 +4,12 @@
         <meta charset="UTF-8">
         <title>Web Architecture & Semantic HTML5</title>
         <link rel="stylesheet" href="style.css">
-        <style>   
+        <style> 
+            h1 {
+                text-align: center;
+                font-size: 5em;
+                color: white;
+            }  
             #navbar {
                 list-style-type: none;
                 margin: 0;
@@ -33,6 +38,9 @@
             .navbar-item a:hover {
                 background-color: #111111;
             }
+            #architecture div {
+                margin-bottom: 5%;
+            }
         </style>
     </head>
     <body>
@@ -47,8 +55,9 @@
         </header>
         <main>
             <section id="architecture">
+                <br><br><br><br>
+                <h1>Web Architecture</h1>
                 <div>
-                    <h1>Web Architecture</h1>
                     <article>
                         <h2>Client-Server Model</h2>
                         <p>The client-server model forms the backbone of modern network computing. This distributed application architecture divides tasks between service providers (servers) and service requesters (clients). Understanding this fundamental concept is essential for IT professionals managing network infrastructure, developing applications, or implementing security protocols.</p>
@@ -65,6 +74,8 @@
                             <li><b>Protocols: </b>Standardized rules and languages governing communication include protocols like Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), and Simple Mail Transfer Protocol (SMTP). These protocols ensure interoperability between different systems and vendors.</li>
                         </ul>
                     </article>
+                </div>
+                <div>
                     <article>
                         <h2>DNS</h2>
                         <p>The Domain Name System (DNS) turns domain names into IP addresses, which browsers use to load internet pages. Every device connected to the internet has its own IP address, which is used by other devices to locate the device. DNS servers make it possible for people to input normal words into their browsers, such as Fortinet.com, without having to keep track of the IP address for every website.</p>
@@ -77,6 +88,8 @@
                             <li><b>Authoritative nameservers: </b>An authoritative nameserver is what gives you the real answer to your DNS query. There are two types of authoritative nameservers: a master server or primary nameserver and a slave server or secondary nameserver. The master server keeps the original copies of the zone records, while the slave server is an exact copy of the master server. It shares the DNS server load and acts as a backup if the master server fails.</li>
                         </ol>
                     </article>
+                </div>
+                <div>
                     <article>
                         <h2>HTTP vs. HTTPS</h2>
                         <h3>HTTP</h3>
@@ -90,8 +103,9 @@
                 </div>
             </section>
             <section id="multimedia">
+                <br><br><br><br>
+                <h1>Multimedia</h1>
                 <div>
-                    <h1>Multimedia</h1>
                     <p>This is what a horse sounds like:</p>
                     <audio controls>
                         <source src=" https://www.w3schools.com/html/horse.mp3" controls>
@@ -108,8 +122,9 @@
                 </div>
             </section>
             <section id="form-section">
+                <br><br><br><br>
+                <h1>Form Section</h1>
                 <div>
-                    <h1>Form Section</h1>
                     <form>
                         <label>Full Name:</label>
                         <input type="text" required><br>
