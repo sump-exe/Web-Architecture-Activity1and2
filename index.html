@@ -4,20 +4,19 @@
         <meta charset="UTF-8">
         <title>Web Architecture & Semantic HTML5</title>
         <link rel="stylesheet" href="style.css">
-        <style>
+        <style>   
             #navbar {
                 list-style-type: none;
-                margin-top: 0;
-                margin-bottom: 5%;
-                margin-left: 0;
-                margin-right: 0;
+                margin: 0;
                 padding: 0;
                 overflow: hidden;
                 background-color: #333333;
-                }
+                width: 100%;
+                box-sizing: border-box;
+            }
             .navbar-item {
                 float: left;
-                }
+            }
 
             .navbar-item a {
                 display: block;
@@ -25,21 +24,22 @@
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                }
+            }
 
             .navbar-item a:hover {
                 background-color: #111111;
-                }
+            }
         </style>
     </head>
     <body>
         <header>
-            <nav>
-                <ul id="navbar">
+            <nav style="margin: 0; padding: 0;">
+                <ul id="navbar" style="margin: 0; padding: 0; width: 100%;">
                     <li class="navbar-item"><a href=#architecture>Architecture</a></li>
                     <li class="navbar-item"><a href=#multimedia>Multimedia</a></li>
                     <li class="navbar-item"><a href=#form-section>Form Section</a></li>
                 </ul>
+            </nav>
         </header>
         <main>
             <section id="architecture">
