@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+main {
+    margin-top: 60px;
+}
 nav {
     margin: 0;
     padding: 0;
