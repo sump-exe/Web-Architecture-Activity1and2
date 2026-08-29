@@ -63,6 +63,8 @@
                     Your browser does not support the audio element. 
                     <!-- exception line yan, pag di lumabas yung audio/video -->
                 </audio>
+                <br>
+                <p>POV: You gave your friend some advice but it backfires.</p>
                 <video controls>
                     <source src="https://www.w3schools.com/html/mov_bbb.mp4" controls>
                     Your browser does not support the video element.
@@ -71,6 +73,20 @@
             </section>
             <section id="form-section">
                 <h1>Form Section</h1>
+                <form>
+                    <label>Full Name:</label>
+                    <input type="text" required>
+                    <label>Email:</label>
+                    <input type="email" required>
+                    <select>
+                        <label>Protocol Selection</label>
+                        <option value="http">HTTP</option>
+                        <option value="https">HTTPS</option>
+                        <option value="ftp">FTP</option>
+                        <option value="smtp">SMTP</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
             </section>
         </main>
     </body>
