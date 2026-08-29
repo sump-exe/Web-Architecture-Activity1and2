@@ -1,0 +1,19 @@
+body {
+    background-color: orange;
+    font-family: Helvetica,sans-serif;
+}
+h1, h2, h3 {
+    font-family: Copperplate, fantasy;
+    font-weight: normal;
+}
+section {
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    background-color: white;
+}
+div {
+    margin: 10%;
+}
